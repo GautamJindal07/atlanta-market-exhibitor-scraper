@@ -40,10 +40,11 @@ The scraper expects a CSV file containing a column named:
 url
 
 Example:
-
+```csv
 url
 https://www.atlantamarket.com/exhibitor/example
 https://www.atlantamarket.com/exhibitor/example2
+```
 
 A sample input file is included in this repository as sample_input_links.csv.
 
@@ -56,9 +57,11 @@ Extracted exhibitor information
 
 Example output structure:
 
+```csv
 url,booth_numbers
 https://www.example.com/exhibitor/123,Example Exhibitor
 https://www.example.com/exhibitor/456,Another Exhibitor
+```
 
 If no matching information is found, the scraper returns:
 
@@ -111,23 +114,9 @@ Notes
 Website structures and HTML selectors can change over time. This project demonstrates browser automation and dynamic web data extraction techniques and should be used responsibly and in accordance with applicable website terms and policies.
 
 
-### Important
+### Very important
 
-When you paste it into GitHub, **do not include** the first:
-
-```text
-```markdown
-
-or the final:
-
-
-Those are only there in my message to show you the boundaries.
-
-Your GitHub editor should start directly with:
-
-**`# Atlanta Market Exhibitor Data Scraper`**
-
-Then click **Commit changes** with:
+When you paste it into GitHub, the **first character should be `#`**:
 
 ```text
-Improve project documentation
+# Atlanta Market Exhibitor Data Scraper
